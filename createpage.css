@@ -1,0 +1,213 @@
+﻿body{
+    /* background-color: #FFFF84;   */
+    background-image: url("picture/bg2.png");
+    background-size:    auto;                     
+    background-position:  center; 
+    font-family: "Athiti" , sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.row{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.userColumn { 
+    float: left;
+    width: 25%;
+    background-color: #FFE920;
+    margin: 0;
+    text-align: center;
+}
+.username{
+    width: 100%;
+    background-color: #181818;
+    color: #ffffff;
+    margin : 0 0 10px 0;
+    padding: 5px 0px;
+}
+.profileBtn button{
+    font-family: "Athiti";
+    width: 50%;
+    margin-bottom: 10px;
+}
+.image{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 3px solid #00CCD6;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.image img{
+    height: 150px;
+    width: 150px;
+}
+.recipeColumn {
+    float: left;
+    width: 73%;
+    background-color: #fff;
+    margin: 0;
+    border: 2px solid black;
+    padding-bottom : 30px;
+}
+.recipeColumn h3{
+    margin-left: 18px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+input[type=text]{
+    color: black;
+    font-family: "Athiti";
+}
+input[type=text]:focus{
+    font-family: "Athiti";
+}
+.recipeName {
+    text-align: center;
+    margin-top: 15px;
+    padding : 5px;
+    font-size: 20px;
+    background-color: #c72727;
+    margin-bottom: 15px;
+}
+.recipeName h2{
+    color: white;
+}
+.recipeName input {
+    padding : 10px;
+    width: 90%;
+    font-size: 20px;
+}
+input.recipeNameTag{
+    text-align: center;
+    font-family: "Athiti";
+    font-weight: bold;
+}
+input.recipeNameTag:focus{
+    text-align: center;
+    font-family: "Athiti";
+    font-weight: bold;
+}
+
+.ingredient{
+    margin-bottom: 10px;
+    width: 80%;
+    margin: auto;
+}
+.ingredient input{
+    width: 100%;
+}
+.howToDo{
+    width: 100%;
+    margin: auto;
+}
+
+.howToDo p{
+    display: block;
+    width: 80% ;
+    font-size: 17px;
+    margin: auto;
+}
+.howToDo textarea{
+    resize: none;
+    display: block;
+    width: 80% ;
+    margin: auto;
+    font-family: "Athiti";
+    font-size: 17px;
+    height: 5em;
+}
+textarea.step{
+    margin-top : 15px;
+    margin-bottom : 20px;
+}
+.recipePicture{
+    text-align: center;
+    display: inline-block;
+    /* margin-left:30%; */
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+    height: 400px;
+    width: 400px;
+}
+.picBorder{
+    border: 2px dashed #575656;
+    border-left-style: solid;
+}
+#mainPic{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+.picFull{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+.addImage img{
+    height: 50px;
+    width: 50px;
+    margin: 0%;
+    padding: 0%;
+}
+.addImage{
+    float: left;
+    padding-top: 6px;
+    padding-left: 6px ;
+    margin-left: 20%;
+    background-color: #2b2a2a;
+    border-width: 2px;
+    border-color: #181818;
+    border-left-style: solid;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.mainPictureBox{
+    margin-bottom: 10px;
+}
+.addMoreBox{
+    width: 30%;
+    margin:auto;
+}
+.addMoreBox button{
+    width: 100%;
+    font-family: "Athiti";
+    font-size: 20px;
+}
+.saveBtnBox {
+    width: 20%;
+    margin-right: 2%;
+    margin-left: auto;
+    margin-top : 15px;
+}
+.saveBtnBox button{
+    width: 100%;
+    padding: 10px;
+    font-family: "Athiti";
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #c72727;
+    color : wheat;
+}
+.saveBtnBox button:focus{
+    outline: none;
+}
+.profile-img {
+   width:200px;
+   border-radius: 50%;
+}
